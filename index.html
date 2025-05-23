@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>All In One Solution</title>
+
+    <style>
+      body {
+        background-color: #000; /* Black background */
+        color: #fff; /* White text */
+      }
+      .app-card {
+        background-color: #1a1a1a;
+        border-radius: 10px;
+        padding: 30px;
+        margin: 15px 0;
+        text-align: center;
+        color: #fff;
+        transition: transform 0.2s, box-shadow 0.2s;
+        cursor: pointer;
+      }
+      .app-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 30px green;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    
+      .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 55px;
+      color: white;
+    }
+
+    .footer p {
+      text-align: center;
+    }
+
+    .heart {
+      color: red;
+      font-size: 1.2rem;
+      display: inline-block;
+      animation: heartbeat 1.5s infinite;
+    }
+
+    @keyframes heartbeat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.3);
+      }
+    }
+    
+    @media (min-height:700px) {
+      .footer{
+        margin-top: 100px;
+      }
+
+      .footer p{
+        margin-top: 35px;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container py-5">
+      <h1 class="text-center mb-5">All In One Solution</h1>
+
+      <!-- Row 1 -->
+      <div class="row">
+        <div class="col-md-4">
+          <a href="/compareFiles/index.html">
+            <div class="app-card">Compare files</div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://xpathfinder.netlify.app/">
+            <div class="app-card">Xpath Finder</div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="/AllInOneSolution/SvnDashboard.html">
+            <div class="app-card">SVN Dashbaord</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="row">
+        <div class="col-md-4">
+          <a href="app4.html">
+            <div class="app-card">Normal To CCS Convertor [work in progress]</div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="app5.html">
+            <div class="app-card">Application 5 [work in progress]</div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="app6.html">
+            <div class="app-card">Application 6 [work in progress]</div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Made with <span class="heart">❤️</span> by an Employee</p>
+    </div>
+    <div class="footer">
+        <p>Any Improvements? Feel Free to Reach me at <a href="mailto:chetan.bhadane@aqmtechnologies.com">chetan.bhadane@aqmtechnologies.com</a></p>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
