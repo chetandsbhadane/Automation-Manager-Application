@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: black;
+  color: white;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+#diffOutput {
+  white-space: pre;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: black;
+}
+
+.highlight {
+  background-color: black;
+  color: #ccc;
+}
+
+.alert {
+  color: red;
+  font-weight: bold;
+}
+
+
